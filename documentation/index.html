@@ -97,7 +97,7 @@
                 <li class="nav-item"><a class="nav-link"
                     href="#idocs_sass">Frontend</a></li>
                 <li class="nav-item"><a class="nav-link"
-                    href="#idocs_color_schemes">Color Schemes</a></li>
+                    href="#idocs_color_schemes">Backend</a></li>
                 <li class="nav-item"><a class="nav-link"
                     href="#idocs_theme_customization">Customization</a></li>
                 <li class="nav-item"><a class="nav-link"
@@ -230,23 +230,31 @@
 
             <hr class="divider">
 
-            <!-- Sass
+            <!-- Frontend
 		============================ -->
             <section id="idocs_sass">
-              <h2>Frontend</h2>
-              <p>We have added SASS <code>.scss</code> files in template. If
-                you know how to use SASS you can change sass files and compile
-                the css as well.
-                You can find sass file here -
-                <code>HTML/assets/sass</code></p>
-              <p>Open the <code>sass/_variables.scss</code> and Edit the
-                values according to your needs. If you need more Advanced
-                Setup then you can Edit the Respective Files yourself which
-                have been branched inside the same Folder. It is completely at
-                your discretion only to include the Required
-                <code>.scss</code> Files you need to minimize the amount of
-                CSS & including only the Styles of the Blocks you need. This
-                can be setup in your <code>stylesheet.scss</code> File.</p>
+              <h2>1.0. - Frontend</h2>
+              <p>Frontend je napravljen po MVC principima pomoću Vue
+                frameworksa.</p>
+              <h4>1.1. - Preduvjeti </h4>
+              <p>Kako bi uopće mogli koristiti i pokrenuti frontend aplikaciju,
+                potrebno je pratiti slijedeće korake:
+              </p>
+              <ol>
+                <li>Instalirati <a
+                    href="https://nodejs.org/en/download">Node.js</a> tako da
+                  skinete exe file (ako koristite Windows okruženje) i pratiti
+                  instalaciju do kraja. Potrebno je označiti tijekom instalacije
+                  da se Node doda u path environment varijable Windowsa ili ju
+                  naknadno ručno dodati.</li>
+                <li>Ako niste, instalirati Vue cli pomoću naredbe: <code>npm
+                    install -g @vue/cli</code></li>
+              </ol>
+              <h4>1.2. - Pokretanje aplikacije </h4>
+              <ul>
+                <li>Pokretanje aplikacije se odrađuje pomoću naredbe <code>npm
+                    run serve</code></li>
+              </ul>
             </section>
 
             <hr class="divider">
@@ -254,7 +262,7 @@
             <!-- Color Schemes
 		============================ -->
             <section id="idocs_color_schemes">
-              <h2>Color Schemes</h2>
+              <h2>Backend</h2>
               <p>You can change your Website's Color Scheme in an instant. We
                 have build <strong>10 Color</strong> css file for change
                 template primary color.</p>
